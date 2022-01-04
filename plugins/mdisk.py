@@ -26,12 +26,12 @@ async def remote_upload(bot, message):
         upload = d.upload(link)
         url = upload
         await message.reply_text(
-            text=f"**Video Link:** `{url}`\n\n This Code is made by @HeimanSupports.",
+            text=f"**Video Link:** `{url}`\n\n This Code is made by @mrpunisher52.",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton('Doodstream', url=url)]]
             )
         )
     else:
         await message.reply_text(
-            "__I Am Facing Some Issue, Please Check the input link or its way that you have provided and if you feel its an error in code please contact **@HeimanSupport**__"
+            "__I Am Facing Some Issue, Please Check the input link or its way that you have provided and if you feel its an error in code please contact **@mrpunisher52@**__"
         )
